@@ -1,0 +1,3 @@
+docker build -t qr_code . # создать обpюраз
+docker run --name my_qr_code -it -p 3000:3000 qr_code # запустить контейнер  (не для винды -it)
+docker rm my_qr_code # удалить контейнер
